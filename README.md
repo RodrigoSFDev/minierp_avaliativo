@@ -16,14 +16,18 @@ O banco de dados está definido no arquivo `docker-compose.yml`. Para iniciar o 
 
 1. Navegue até o diretório do projeto no terminal.
 2. Execute o seguinte comando para construir e iniciar o banco de dados:
-```docker-compose up --build```
+```
+docker-compose up --build
+```
 
 Este comando irá construir a imagem do banco de dados (se necessário) e iniciar o banco de dados. O banco de dados estará acessível no endereço `localhost` na porta especificada no arquivo `docker-compose.yml`.
 
 ## Como executar o projeto
 
 Depois de iniciar o banco de dados, você pode executar o projeto usando o seguinte comando:
-```dotnet run```
+```
+dotnet run
+```
 
 Este comando irá compilar e executar o projeto. O projeto estará acessível no endereço `localhost` na porta especificada no arquivo `launchSettings.json`.
 
